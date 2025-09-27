@@ -1,5 +1,6 @@
 
 import { v4 as uuidv4 } from "uuid";
+import type {ReactElement} from "react"
 import {
   Calendar,
   Heart,
@@ -17,12 +18,12 @@ interface BlogPost {
   post: string;
   summary: string;
   date: string;
-  dateIcon: JSX.Element;
-  likeIcon: JSX.Element;
-  commentIcon: JSX.Element;
-  showlessIcon: JSX.Element;
-  saveIcon: JSX.Element;
-  moreIcon: JSX.Element;
+  dateIcon: ReactElement;
+  likeIcon: ReactElement;
+  commentIcon: ReactElement;
+  showlessIcon: ReactElement;
+  saveIcon: ReactElement;
+  moreIcon: ReactElement;
   commentCount: number;
 }
 // types.ts
@@ -34,7 +35,7 @@ export interface StaffPick {
   author: string;
   description: string;
   logo: string; // path or URL to logo image
-  userIcons: string[]; // 2 user avatar images
+  userIcons: string; // 2 user avatar images
   date: string;
 }
 

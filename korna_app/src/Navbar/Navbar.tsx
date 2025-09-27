@@ -7,7 +7,6 @@ import {
   User,
   FileText,
   BarChart,
-  Users,
   Plus,
   Menu,
   X,
@@ -15,7 +14,7 @@ import {
   SquarePen,
   Bell
 } from "lucide-react";
-import { Routes, Route } from "react-router-dom";
+// import { Routes, Route } from "react-router-dom";
 // import  SearchPage from "./Compnents/SearchPage.tsx"
 const Navbar: React.FC = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -37,7 +36,7 @@ const Navbar: React.FC = () => {
   ];
 
   return (
-    <div className="py-3">
+    <div className="">
       {/*<SearchPage />*/}
       {/* Top Navbar */}
       <nav className="fixed top-0 left-0 w-full bg-white border-b shadow-sm z-50">
