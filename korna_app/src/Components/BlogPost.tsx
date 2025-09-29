@@ -223,7 +223,7 @@ const BlogPost: FC = () => {
         </div>
 
         {/* Right sidebar always visible */}
-        <div className="border-l">
+        <div className="border-l hidden md:flex md:flex-col md:pt-14">
           {staffPicks.map((post, index) => (
             <div className="flex flex-col justify-center m-9" key={index}>
               <div className="flex items-center gap-4">
