@@ -192,7 +192,7 @@ const BlogPost: FC = () => {
                       <div className="show_less cursor-pointer">
                         <Comment />
                       </div>
-                      <div className="cursor-pointer">
+                      <div className="cursor-pointer hidden md:flex">
                         <SaveIcon />
                       </div>
                       <div className="more_icon cursor-pointer">
